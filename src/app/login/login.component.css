@@ -1,0 +1,10 @@
+.button-row button,
+.button-row a {
+  margin-right: 8px;
+}
+
+.loginButton {
+    margin-top: 32px;
+    background-color: #3174e0;
+    color: white;
+}

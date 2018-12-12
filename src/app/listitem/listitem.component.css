@@ -1,0 +1,54 @@
+header {
+  margin-bottom: 3px;
+}
+
+.alignIcon {
+  float: left;
+}
+
+.alignImage {
+  float: right;
+  margin: -8.5% -7% 0 0
+}
+
+.alignLogo {
+  float: left;
+}
+
+.listItems {
+  padding: 18px;
+  border-bottom: 1pt solid #D3D3D3;
+  background-color: #E0E0E0;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+  .alignImage {
+    margin: -8.5% -7% 0 0
+  }
+
+  .alignLogo {
+    margin: -4% 4% 0 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .alignImage {
+    margin: -8.5% -7% 0 0
+  }
+
+  .alignLogo {
+    margin: -1.5% 4% 0 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    .alignImage {
+      margin: -2% -2% 0 0
+    }
+  
+    .alignLogo {
+      margin: -1.5% 4% 0 0;
+    }
+  }
